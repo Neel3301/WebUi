@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --bgColor: #dee2e6;
+    --dark: #6c757d;
+    --red: #e5383b;
+    --black: #000;
+    --blue: #4361ee;
+}
+
+main{
+    height: 70rem;
+    width: 100%;
+    background-color: var(--bgColor);
+}
+nav{
+    height: 5rem;
+    width: 100%;
+}
+.LandingArea{
+    height: calc(100% - 5rem);
+    width: 100%;
+}
+
+
